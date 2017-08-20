@@ -51,13 +51,12 @@ var checkMatch = function(){
 			alert("You found a match!");
 			cardsInPlay.pop();
 			cardsInPlay.pop();
-			
+
 		}
 		else{
 			alert("Sorry! Try again!");
 			cardsInPlay.pop();
 			cardsInPlay.pop();
-			createBoard();
 		}
 		
 	};
